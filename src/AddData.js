@@ -19,6 +19,7 @@ export default function AddData() {
     setuser(user);
     console.log(user);
   };
+
   return (
     <>
       <FormData

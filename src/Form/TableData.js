@@ -10,7 +10,8 @@ export default function TableData(props) {
         <thead>
           <tr>
             <th> Name</th>
-            <th>email</th>
+            <th>Email</th>
+            <th>Action</th>
           </tr>
         </thead>
         {props.data.map((data) => (
